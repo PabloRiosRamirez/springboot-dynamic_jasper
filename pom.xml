@@ -5,8 +5,8 @@
     <artifactId>dynamicjasper</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>SpringBoot-DynamicReports</name>
-    <description>Proyecto Spring Boot con JasperReport, el cual es una de las bibliotecas de generación de reportes mas populares en el lenguaje de programación Java</description>
+    <name>SpringBoot - DynamicJasper</name>
+    <description>Demo de aplicativo Spring Boot con DynamicJasper, que ha diferencia de ocupar solamente JasperReport, con esta libreria se puede crear el estilo del reporte de forma programable.</description>
     
     
     <properties>
@@ -84,7 +84,6 @@
     </dependencies>
     
     <build>
-        <finalName>tutorial_webmvc_DynamicJasper</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

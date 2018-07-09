@@ -1,3 +1,10 @@
+/**
+ * @author Pablo Ríos Ramírez
+ * @Created 28-06-2018 2:43:46
+ * @web http://www.pabloriosramirez.com
+ *
+ */
+
 package com.pabloriosramirez.springboot.dynamicjasper.controller;
 
 import ar.com.fdvs.dj.core.DynamicJasperHelper;
@@ -42,7 +49,7 @@ public class CustomerController {
                     .addColumn("LASTNAME", "LASTNAME", String.class.getName(), 50)
                     .addColumn("STREET", "STREET", String.class.getName(), 50)
                     .addColumn("CITY", "CITY", String.class.getName(), 50)
-                    .setTitle("Primer informe con Dynamic Jasper")
+                    .setTitle("Informe con Dynamic Jasper")
                     .setPrintBackgroundOnOddRows(true)
                     .setUseFullPageWidth(true);
 
